@@ -15,8 +15,7 @@ module.exports = {
   },
   entry: {
     "main.js": [join("source", "js", "index.js"), join("source", "js", "menu.js")],
-    "prism.js": join("source", "js", "prism.js"),
-    "style.css": join("source", "css", "style.css"),
+    "style.css": [join("source", "css", "style.css"), join("source", "css", "syntax.css")],
   },
   output: {
     filename: "[name]",
