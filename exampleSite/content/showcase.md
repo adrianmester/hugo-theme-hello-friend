@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum met
 Nulla libero turpis, lacinia vitae cursus ut, auctor dictum nisl. Fusce varius felis nec sem ullamcorper, at convallis nisi vestibulum. Duis risus odio, porta sit amet placerat mollis, tincidunt non mauris. Suspendisse fringilla, `odio a dignissim pharetra`, est urna sollicitudin urna, eu scelerisque magna ex vitae tellus.
 
 ```css
-/* PostCSS code */
+/* CSS */
 
 pre {
   background: #1a1a1d;
@@ -24,17 +24,12 @@ pre {
   font-size: 1rem;
   overflow: auto;
 
-  @media (--phone) {
-    white-space: pre-wrap;
-    word-wrap: break-word;
-  }
-
-  code {
-    background: none !important;
-    color: #ccc;
-    padding: 0;
-    font-size: inherit;
-  }
+}
+pre code {
+  background: none !important;
+  color: #ccc;
+  padding: 0;
+  font-size: inherit;
 }
 ```
 

@@ -19,7 +19,7 @@ module.exports = {
       join("source", "js", "menu.js"),
       join("source", "js", "theme.js"),
     ],
-    "style.css": join("source", "css", "style.css"),
+    "style.css": [join("source", "css", "style.css"), join("source", "css", "syntax.css")],
   },
   output: {
     filename: "[name]",

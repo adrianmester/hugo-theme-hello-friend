@@ -2,6 +2,9 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hugo-theme-hello-friend"
 paginate = 5
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsOptions = "linenos=table"
 
 [params]
   # dir name of your blog content (default is `content/posts`)
